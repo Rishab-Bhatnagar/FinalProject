@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+    <form class="container">
+
+        <h1>WELCOME </h1>
+        <h1>SIGN UP HERE</h1>
+        <br>
+        <p>Please fill in this form to create an account.</p>
+
+
+        <label>Email</label><br>
+        <input type="text" placeholder="Enter Email" name="email" required>
+        <br><br><br>
+        <label>Password</label><br>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+        <br><br><br>
+        <label>Repeat Password</label><br>
+        <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+        <br><br><br>
+        <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+        </label>
+        <br><br><br>
+        <p>By creating an account you agree to our <a href="#" style="color: darkblue;">Terms & Privacy</a>.</p>
+
+        <div class="clearfix">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <button type="submit" class="signupbtn">Sign Up</button>
+
+
+        </div>
+        <p>Already have an account? <a href="login.html">LOGIN</a></p>
+
+        <style>
+            label {
+                background: transparent;
+                position: relative;
+                font-size: large;
+                color: aliceblue;
+                border: 5px;
+                border-radius: 5px;
+                border-color: black;
+            }
+
+            form {
+                background: transparent;
+                position: relative;
+                margin-left: 500px;
+
+
+            }
+
+            body {
+                background-color: #088178;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: 150rem;
+                position: center;
+
+
+            }
+
+            h1 {
+                position: center;
+                color: aliceblue;
+
+            }
+
+            p {
+                color: aliceblue;
+            }
+
+            a {
+                color: darkblue;
+                text-decoration: none;
+            }
+
+            .signupbtn:hover {
+                transform: scale(1.2);
+                transition-delay: 0.1s;
+                background-color: rgb(228, 155, 237);
+                border-radius: 5px;
+
+            }
+
+            .cancelbtn:hover {
+                transform: scale(1.2);
+                transition-delay: 0.1s;
+                background-color: rgb(228, 155, 237);
+                border-radius: 5px;
+            }
+        </style>
+    </form>

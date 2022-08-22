@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <link rel="stylesheet" href="Home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+
+</head>
+
+<body>
+
+    <header>
+
+
+        <h1 class>ElectroGadgets</h1>
+        <nav class="navbars">
+            <ul>
+                <li><a href="HOME.html">HOME</a></li>
+                <li><a href="signup.html">SIGN UP</a></li>
+                <li><a href="DemoPage.html">DEMO PAGE</a> </li>
+
+                <li><a href="feedback.html">FEEDBACK</a> </li>
+
+                <li><a href="AboutUs.html">ABOUT US</a> </li>
+
+
+                <li> <input class="srch" type="search" name="" placeholder=" Type to search"></li>
+                <li><button class="btn">Search</button></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <style>
+        li {
+            list-style: none;
+            display: inline;
+            margin-left: 5px;
+            text-decoration: none;
+            padding: 10px;
+
+
+        }
+
+        header {
+            background-color: #088178;
+
+        }
+
+        .navbars {
+            margin-top: 20px;
+            background-color: #088178;
+            text-align: left;
+            border-bottom: 10px;
+
+        }
+
+        a {
+            color: rgb(240, 242, 244);
+            text-decoration: none;
+
+        }
+
+        ul {
+            background: transparent;
+            height: 30px;
+
+        }
+
+        ul :hover {
+            color: rgb(228, 104, 135);
+        }
+
+
+        p {
+            font-size: xx-large;
+            text-align: center;
+            margin-top: 400px;
+            margin-left: 1px;
+        }
+
+
+        .btn {
+            margin-right: 0px;
+            background-color: #088178;
+            color: #fff;
+            float: right;
+            font-weight: bold;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border-radius: 5px;
+            border: 1px solid #fff;
+        }
+
+        .btn:hover {
+
+
+            color: aliceblue;
+            transform: scale(1.2);
+            border-radius: 5px;
+
+
+        }
+
+        .srch {
+            height: 30px;
+            width: 200px;
+            border-radius: 5px;
+            margin-right: 20px;
+            float: right;
+        }
+
+        h1 {
+            position: relative;
+            color: rgb(241, 234, 234);
+            text-align: center;
+        }
+    </style>
+
+    <br><br>
+
+    </section>
+    <marquee>Flat 50% on first order</marquee>
+    <section id="hero">
+
+        <h2>Super value deals</h2>
+        <h1>On All Products</h1>
+        <img src="" alt="" id="image">
+        <script type="text/javascript">
+            let image = document.getElementById('image');
+            let images = ['img/bgimg_5.webp', 'img/bgimg_6.webp', 'img/bgimg_7.webp', 'img/bgimg_8.webp', 'img/bgimg_9.webp']
+            setInterval(function () {
+                let random = Math.floor(Math.random() * 5);
+                image.src = images[random];
+            }, 1200);
+        </script>
+        <p>save more with coupons & up to 70% off!</p>
+        <button>Shop Now</button>
+    </section>
+
+
+
+    <section id="product1" class="section-p1">
+        <h2>Featured Product</h2>
+        <p>Latest Collection New Modern Design</p>
+        <div class="pro-container">
+            <div class="pro">
+
+                <img src="img/Dwatch_1.webp" alt="" id="image_1">
+
+                <div class="des">
+                    <span>MI BAND</span>
+                    <h3>Smart Watch</h3>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>2999Rs.</h4>
+                </div>
+
+            </div>
+            <div class="pro">
+                <img src="img/earbuds_2.webp" alt="" id="image_2">
+                <div class="des">
+                    <span>Realme</span>
+                    <h5>Realme Q Buds</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>1599Rs.</h4>
+                </div>
+
+            </div>
+            <div class="pro">
+                <a href="ProductDetails.html">
+                    <img src="img/mobile_1.webp" alt="" id="image_3">
+                </a>
+                <div class="des">
+                    <span>Apple</span>
+                    <h5>IPhone 12</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>45000Rs.</h4>
+                </div>
+
+            </div>
+            <div class="pro">
+                <img src="img/Ref_1.webp" alt="" id="image_4">
+                <div class="des">
+                    <span>Samsung</span>
+                    <h5>Inverter Refrigerator M12A</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>21999Rs.</h4>
+                </div>
+
+            </div>
+            <div class="pro">
+                <img src="img/tv_3.webp" alt="" id="image_5">
+                <div class="des">
+                    <span>MI</span>
+                    <h5>MI TV 5X</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>35000Rs.</h4>
+                </div>
+
+            </div>
+            <div class="pro">
+                <img src="img/WM_1.webp" alt="" id="image_6">
+                <div class="des">
+                    <span>Whirlpool</span>
+                    <h5>Whirlpool Washing Machine </h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>20000Rs.</h4>
+                </div>
+
+            </div>
+            <div class="pro">
+                <img src="img/Dwatch_3.webp" alt="" id="image_7">
+
+                <div class="des">
+                    <span>Apple</span>
+                    <h5>Smart Band</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>15000Rs.</h4>
+                </div>
+
+            </div>
+            <div class="pro">
+                <img src="img/mobile_3.webp" alt="" id="image_8">
+                <div class="des">
+                    <span>INFINIX</span>
+                    <h5>Infinix Zen Z</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>12000Rs.</h4>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">our services</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">affiliate program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">order status</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>online shop</h4>
+                    <ul>
+                        <li><a href="#">watch</a></li>
+                        <li><a href="#">bag</a></li>
+                        <li><a href="#">shoes</a></li>
+                        <li><a href="#">dress</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+            body {
+                line-height: 1.5;
+                font-family: 'Poppins', sans-serif;
+            }
+
+            .footer * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            .container {
+                max-width: 1170px;
+                margin: auto;
+            }
+
+            .row {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            ul {
+                list-style: none;
+            }
+
+            .footer {
+                background-color: #24262b;
+                padding: 70px 0;
+            }
+
+            .footer-col {
+                width: 25%;
+                padding: 0 15px;
+            }
+
+            .footer-col h4 {
+                font-size: 18px;
+                color: #ffffff;
+                text-transform: capitalize;
+                margin-bottom: 35px;
+                font-weight: 500;
+                position: relative;
+            }
+
+            /* .footer-col h4::before {
+                content: '';
+                position: absolute;
+                left: 0;
+                bottom: -10px;
+                background-color: #e91e63;
+                height: 2px;
+                box-sizing: border-box;
+                width: 50px;
+            } */
+
+            .footer-col ul li:not(:last-child) {
+                margin-bottom: 10px;
+            }
+
+            .footer-col ul li a {
+                font-size: 16px;
+                text-transform: capitalize;
+                color: #ffffff;
+                text-decoration: none;
+                font-weight: 300;
+                color: #bbbbbb;
+                display: block;
+                transition: all 0.3s ease;
+            }
+
+            .footer-col ul li a:hover {
+                color: #ffffff;
+                padding-left: 8px;
+            }
+
+            .footer-col .social-links a {
+                display: inline-block;
+                height: 40px;
+                width: 40px;
+                background-color: rgba(255, 255, 255, 0.2);
+                margin: 0 10px 10px 0;
+                text-align: center;
+                line-height: 40px;
+                border-radius: 50%;
+                color: #ffffff;
+                transition: all 0.5s ease;
+            }
+
+            .footer-col .social-links a:hover {
+                color: #24262b;
+                background-color: #ffffff;
+            }
+
+            /*responsive*/
+            @media(max-width: 767px) {
+                .footer-col {
+                    width: 50%;
+                    margin-bottom: 30px;
+                }
+            }
+
+            @media(max-width: 574px) {
+                .footer-col {
+                    width: 100%;
+                }
+            }
+        </style>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
